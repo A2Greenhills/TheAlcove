@@ -1,0 +1,79 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1475359524104-d101d02a042b?auto=format&fit=crop&w=1757&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: lato;
+    color: white;
+}
+#content {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 15%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,.4),
+                 0px 8px 13px rgba(0,0,0,.1),
+                 0px 18px 23px rgba(0,0,0,.1)
+}
+#articles {
+    padding-bottom: 10%;
+}
+div {
+    display: block;
+}
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+hr {
+    width: 600px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 315px;
+}
+h2 {
+    text-align: center;
+}
+/* Footnote Stuff */
+#footnote {
+    color: white;
+}
+.footer{
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+}
+.footer nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.footer nav > ul > li{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+.footer nav > ul > li:first-child{
+    margin: 0;
+    padding: 0;
+}
+.footer nav > ul a:not(.btn) {
+  color: white;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+  color: #E3E3E3;
+}
+.footer .copyright {
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+/*869 px height will probable work, makr manson did it*/

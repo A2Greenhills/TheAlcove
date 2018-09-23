@@ -21,6 +21,15 @@ body {
     top: 10px;
     bottom: 10px;
 }
+.leftTag::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    padding-top: 25px;
+    border-bottom: 1px solid #08520f;
+}
 .single-rule {
     width: 200px;
     position: relative;
@@ -44,9 +53,10 @@ h1 {
     font-size: 5em;
 }
 hr {
-    width: 600px;
+    width: 300px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,.2);
+    
     /* margin-bottom: 315px; */
 }
 h2 {

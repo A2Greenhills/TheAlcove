@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1513262835084-435d2431a5ba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aac1ca701dd0810823aacd8a2e96e112&auto=format&fit=crop&w=2250&q=80); /*https://www.greenhillsschool.org/wp-content/themes/greenhills/images/temp-content/arts-3.jpg); */
+    background-image: url(https://www.greenhillsschool.org/wp-content/themes/greenhills/images/temp-content/give-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,19 +83,20 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 30px;
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 500;
     display: inline-table;
     overflow: hidden;
+    color: black;
 }
 .blockl:hover {
-    background-color: red;
+    background-color: rgb(5, 82, 56);
 }
 .blockm:hover {
-    background-color: red;
+    background-color: rgb(5, 82, 56);
 }
 .blockr:hover {
-    background-color: red;
+    background-color: rgb(5, 82, 56);
 }
 .post-meta {
     background-color: silver;
@@ -105,6 +106,7 @@ a:hover {
     height: 50px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    font: inherit;
 }
 .card_title {
     margin: 0;
@@ -119,13 +121,6 @@ a:hover {
     border-top-left-radius: 8px;
 }
 .card-link {
-    width: 100%;
-    display: block;
-    background: rgba(228, 214, 214, 0.945);
-    border-radius: 8px;
-    color: black;
-}
-.card-link1 {
     width: 100%;
     display: block;
     /*background: rgba(228, 214, 214, 0.945); */

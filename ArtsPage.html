@@ -29,19 +29,22 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             	<ul class="nav navbar-nav">
-					<li><a href="#">Extrinsic Affairs</a></li>
+					<li class="dropdown">
+                		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Extrinsic Affairs<b class="caret"></b></a>
+                  		<ul class="dropdown-menu">
+                    		<li><a href="#">A<sup>2</sup></a></li>
+							<li><a href="#">US</a></li>
+							<li><a href="#">Global</a></li>
+						</ul>
+					</li>
+					<li><a href="GHLivingPage.html">GH Living</a></li>
 					<li><a href="ArtsPage.html">Arts</a></li>
 					<li><a href="SportsPage.html">Sports</a></li>
-					<li><a href="#">Food</a></li>
-					<li><a href="#">Humor</a></li>
-                	<li class="dropdown">
-                		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Community<b class="caret"></b></a>
-                  		<ul class="dropdown-menu">
-                    	<li><a href="#">Teacher Spotlight</a></li>
-                    	<li><a href="#">Humans of Greenhills</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+					<li><a href="SustainabilityPage.html">Sustainability</a></li>
+                </ul>		
+            </div>
+            </div>
+          </div>
         </nav>
 	</div>
 	<!--end of navbar-->
@@ -55,56 +58,6 @@
 					<hr> 
 				</div>
 			</div>
-			<div class="grid">
-				<div class="grid-size grid-item col-xs-8 col-sm-6 col-md-6 card-item">
-					<a class="card-link" href="#">
-						<img src="https://images.unsplash.com/photo-1514042847726-121bacd6718e?auto=format&fit=crop&w=1500&q=80" alt="Image" class="img-responsive extra_padding">
-						<p class="card_item1">Peter Dinklage <br>Peter Dinklage is an American actor. Since his breakout role in The Station Agent (2003), he has appeared in numerous films and theatre plays. Since 2011, Dinklage has portrayed Tyrion Lannister in the HBO series Game of Thrones.</p>
-						<div class="blockl"><span class="bottom_words">Time</span></div>
-						<!--<div class="spacer"></div>-->
-						<div class="blockm"><span class="bottom_words">Author</span></div>
-						<div class="blockm"><span class="bottom_words">Likes</span></div>
-						<div class="blockr"><span class="bottom_words">Share</span></div>
-					</a>
-				</div>
-				<div class="grid-item col-xs-8 col-sm-6 col-md-5 card-item">
-					<a class="card-link" href="#">
-						<img src="https://images.unsplash.com/photo-1507124484497-b7f446e65519?auto=format&fit=crop&w=2458&q=80" alt="Image" class="img-responsive extra_padding">
-						<p class="card_title">Title<br>Author<br>Description</p>
-					</a>
-				</div>
-				<div class="grid-size grid-item col-xs-8 col-sm-6 col-md-6 card-item">
-					<a class="card-link1" href="#">
-						<img src="https://images.unsplash.com/photo-1535515384173-d74166f26820?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a39ab809fc1849faefb2ab12ca351748&auto=format&fit=crop&w=2250&q=80" alt="Image" class="img-responsive card_img">
-						<p class="card_item">Peter Dinklage <br>Peter Dinklage is an American actor. Since his breakout role in The Station Agent (2003), he has appeared in numerous films and theatre plays. Since 2011, Dinklage has portrayed Tyrion Lannister in the HBO series Game of Thrones.</p>
-						<div class="post-meta">
-							<div class="blockl"><span class="bottom_words">Time</span></div>
-							<!--<div class="spacer"></div>-->
-							<div class="blockm"><span class="bottom_words">Author</span></div>
-							<div class="blockm"><span class="bottom_words">Likes</span></div>
-							<div class="blockr"><span class="bottom_words">Share</span></div>
-						</div>
-					</a>
-				</div>
-				
-				<div class="grid-item col-xs-8 col-sm-6 col-md-3 card-item">
-					<a class="card-link" href="#">
-						<img src="https://images.unsplash.com/photo-1497960234455-7a67616da918?auto=format&fit=crop&w=1334&q=80" alt="Image" class="img-responsive card_img">
-						<p class="card_title">Title<br>Author<br>Description</p>
-					</a>
-				</div>
-				<div class="grid-item col-xs-8 col-sm-6 col-md-3 card-item">
-					<a class="card-link" href="#">
-						<img src="https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?auto=format&fit=crop&w=622&q=80" alt="Image" class="img-responsive card_img">
-						<p class="card_title">Title<br>Author<br>Description</p>
-					</a>	
-				</div>
-				<div class="grid-item col-xs-8 col-sm-6 col-md-3 card-item">
-					<a class="card-link" href="#">
-						<img src="https://images.unsplash.com/photo-1495389948407-1a7dfe01c1c2?auto=format&fit=crop&w=1500&q=80" alt="Image" class="img-responsive card_img">
-						<p class="card_title">Title<br>Author<br>Description</p>
-					</a>
-				</div>
 			</div>
 		</div>
 
@@ -147,7 +100,5 @@
 	<script src="js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 	<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
 	<script src="js/ct-paper.js"></script> 
-
-	 <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@steve_j?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Steve Johnson"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Steve Johnson</span></a>
 
 </html>

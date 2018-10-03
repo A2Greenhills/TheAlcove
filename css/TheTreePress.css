@@ -17,11 +17,16 @@ body {
                  0px 18px 23px rgba(0,0,0,.1)
 }
 .leftTag {
+    border-left: 1px solid #08520f;
+    top: 10px;
+    bottom: 10px;
+}
+.rightTag {
     border-right: 1px solid #08520f;
     top: 10px;
     bottom: 10px;
 }
-.leftTag::after {
+.rightTag::after {
     content: '';
     display: block;
     position: absolute;

@@ -71,6 +71,9 @@ img {
     height: 200px;
     width: 325px;
 }
+.column {
+    padding-bottom: 25px;
+}
 .vrl {
     border-left: 1px solid #f8f8f8;
     border-right: 1px solid rgba(0,0,0,.2);

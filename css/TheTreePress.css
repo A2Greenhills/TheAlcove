@@ -42,7 +42,7 @@ body {
     border-top: 1px solid #08520f;
 }
 #title {
-    background-image: url(https://images.unsplash.com/photo-1475359524104-d101d02a042b?auto=format&fit=crop&w=1757&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D); /*background-size: cover;*/
+    background-image: url('../tree-background.jpeg'); /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,16 +50,13 @@ body {
     width: 100%;
     margin-bottom: 100px;
 }
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
+@media screen 
+    and (max-width : 375px) 
+    and (max-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
         #title {
             background-color: #08520f;
             background-position: center;
-        }
-        #navbar {
-            float: none;
         }
     }
 @media only screen 

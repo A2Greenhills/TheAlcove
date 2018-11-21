@@ -55,12 +55,24 @@ body {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
         #title {
-            background-image: url(https://images.unsplash.com/photo-1475359524104-d101d02a042b?auto=format&fit=crop&w=1757&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D); /*background-size: cover;*/
+            background-color: #08520f;
             background-position: center;
         }
         #navbar {
             float: none;
         }
+    }
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+    }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+
     }
 div {
     display: block;

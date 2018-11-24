@@ -1,7 +1,6 @@
 #content {
     text-align: center;
-    margin-top: -30%;
-    margin-bottom: 25%;
+    margin-bottom: 15%;
     /*
     This makes the title look like its in the background
         position: fixed;
@@ -12,8 +11,15 @@
                  0px 8px 13px rgba(0,0,0,.1),
                  0px 18px 23px rgba(0,0,0,.1)
 }
-#navbar {
-    padding-bottom: 25%;
+#title {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    margin-bottom: 100px;
+    padding-top: 15%;
 }
 div {
     display: block;

@@ -56,20 +56,26 @@ body {
     and (-webkit-device-pixel-ratio : 3) { 
         #title {
             background-color: #08520f;
-            margin-bottom: 50px;
+            margin-bottom: 0px;
         }
     }
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 736px) 
     and (-webkit-device-pixel-ratio : 3) { 
-
+    #title {
+        background-color: #08520f;
+        margin-bottom: 0px;
+    }        
     }
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) { 
-
+    #title {
+        background-color: #08520f;
+        margin-bottom: 0px;
+    }
     }
 div {
     display: block;

@@ -55,8 +55,10 @@ body {
     and (max-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
         #title {
-            background-image: url('../tree-background.jpeg');
+            background-image: url('../images/tree-background.jpeg');
             background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
     }
 @media only screen 

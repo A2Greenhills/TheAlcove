@@ -56,6 +56,7 @@ body {
     and (-webkit-device-pixel-ratio : 3) { 
         #title {
             background-color: #08520f;
+            margin-bottom: 50px;
         }
     }
 @media only screen 

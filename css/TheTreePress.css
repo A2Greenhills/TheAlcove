@@ -16,6 +16,12 @@ body {
                  0px 8px 13px rgba(0,0,0,.1),
                  0px 18px 23px rgba(0,0,0,.1)
 }
+.picture {
+    margin-top: 10%;
+    margin-left: -15px;
+    width: 100%;
+    height: 100%;
+}
 .leftTag {
     border-left: 1px solid #08520f;
     top: 10px;

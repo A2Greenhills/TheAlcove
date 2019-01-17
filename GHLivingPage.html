@@ -250,14 +250,22 @@
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 	<script type="text/javascript" language="javascript">
-		var msnry = new Masonry( '.grid', {
-			itemSelector: '.grid-item', 
-			columnWidth: '.grid-size',
-			percentPosition: true
-		})
-		// element
-		imagesLoaded( document.querySelector('#container'), function( instance ) {
-			console.log('all images are loaded');
+		$(document).ready(function() {
+			var $boxes = $('.box');
+			$boxes.hide();
+
+			var $container = $('#post-area');
+			$container.imagesLoaded( function() {
+				$boxes.fadeIn();
+
+				$container.masonry({
+					itemSelector : '.box',
+					columnwidth: 300,
+					gutter: 20,
+					isFitWidth: true,
+					isAnimated: !Modernizr.csstransitions
+				});    
+			});
 		});
 	</script>
 	 

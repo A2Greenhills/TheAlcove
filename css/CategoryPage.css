@@ -141,6 +141,7 @@ a:hover {
 }
 .grid-item {
     margin-bottom: 3%;
+    width: 50%;
 }
 .extra_padding {
   margin: 0;
@@ -150,7 +151,7 @@ a:hover {
 /* Container Stuff */
 #cards {
     max-width: 1200px;
-  }
+}
 @media screen and (min-width: 600px) {
  .container-fluid {
     padding-right: 3rem;

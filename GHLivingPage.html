@@ -265,20 +265,20 @@
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 	<script type="text/javascript" language="javascript">
-		var $grid = new Masonry('.grid', {
+		var msnry = new Masonry('.grid', {
 			itemSelector: '.grid-item',
 			columnWidth: '.grid-size',
 			percentPosition: true
 		})
-		$grid.imagesLoaded().progress( function() {
-			$grid.masonry();
-		})
-		/*
 		var $grid = $('grid').masonry({
 			itemSelector: '.grid-item',
 			columnWidth: '.grid-size',
 			percentPosition: true
 		});
+		$grid.imagesLoaded().progress( function() {
+			$grid.masonry();
+		})
+		/*
 		$(document).ready(function() {
 			var $boxes = $('.card-item');
 			$boxes.hide();

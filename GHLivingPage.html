@@ -265,13 +265,13 @@
 	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
 	<script type="text/javascript" language="javascript">
-		var msnry = new Masonry('.grid', {
+		var $grid = new Masonry('.grid', {
 			itemSelector: '.grid-item',
 			columnWidth: '.grid-size',
 			percentPosition: true
 		})
-		msnry.imagesLoaded().progress( function() {
-			msnry.masonry();
+		$grid.imagesLoaded().progress( function() {
+			$grid.masonry();
 		})
 		/*
 		var $grid = $('grid').masonry({

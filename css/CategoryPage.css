@@ -29,6 +29,9 @@
             background-color: #08520f;
             margin-bottom: 0px;
         }
+        img {
+            display: none;
+        }
     }
 @media only screen 
     and (device-width : 414px) 
@@ -37,7 +40,10 @@
     #title {
         background-color: #08520f;
         margin-bottom: 0px;
-    }        
+    }
+    img {
+        display: none;
+    }
     }
 @media only screen 
     and (device-width : 375px) 
@@ -46,6 +52,9 @@
     #title {
         background-color: #08520f;
         margin-bottom: 0px;
+    }
+    img {
+        display: none;
     }
     }
 div {

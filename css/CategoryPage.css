@@ -33,6 +33,9 @@
         img {
             display: none;
         }
+        nav-navbar {
+            background: #08520f;
+        }
     }
 @media only screen 
     and (device-width : 414px) 
@@ -46,6 +49,9 @@
     img {
         display: none;
     }
+    nav-navbar {
+        background: #08520f;
+    }
     }
 @media only screen 
     and (device-width : 375px) 
@@ -58,6 +64,9 @@
     }
     img {
         display: none;
+    }
+    nav-navbar {
+        background: #08520f;
     }
     }
 div {

@@ -76,6 +76,9 @@ h2 {
 a:hover {
     color: black;
 }
+.grid-item {
+    margin: 3rem 3rem 3rem 0;
+}
 .spacer {
     border-left: 1px solid black;
     width: 1%;

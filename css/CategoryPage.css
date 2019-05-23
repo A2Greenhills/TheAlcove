@@ -36,7 +36,7 @@
             display: none;
         }
         nav-navbar {
-            background: #08520f;
+            background-color: #08520f;
         }
     }
 @media only screen 
@@ -49,13 +49,12 @@
     #title {
         background-color: #08520f;
         margin-bottom: 0px;
-        color: #08520f;
     }
     img {
         display: none;
     }
     nav-navbar {
-        background: #08520f;
+        background-color: #08520f;
     }
     }
 @media only screen 
@@ -68,13 +67,12 @@
     #title {
         background-color: #08520f;
         margin-bottom: 0px;
-        color: #08520f;
     }
     img {
         display: none;
     }
     nav-navbar {
-        background: #08520f;
+        background-color: #08520f;
     }
     }
 div {

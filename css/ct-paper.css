@@ -179,7 +179,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .tagsinput-remove-link,
 .filter,
 .btn-hover,
-[data-toggle="collapse"] i {
+/*[data-toggle="collapse"]*/ i {
   -webkit-transition: all 150ms linear;
   -moz-transition: all 150ms linear;
   -o-transition: all 150ms linear;
@@ -2577,7 +2577,7 @@ textarea.form-control {
   .footer:not(.footer-big) nav > ul li:first-child {
     margin-left: 0;
   }
-
+/*
   body > .navbar-collapse.collapse {
     display: none !important;
   }
@@ -2623,7 +2623,7 @@ textarea.form-control {
     transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     position: relative;
   }
-
+/*
   .navbar .navbar-collapse.collapse,
   .navbar .navbar-collapse.collapse.in,
   .navbar .navbar-collapse.collapsing {
@@ -2710,7 +2710,7 @@ textarea.form-control {
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0);
   }
-
+*/
   .nav-open .navbar .container {
     left: -230px;
   }

@@ -2726,7 +2726,7 @@ textarea.form-control {
 
   .navbar-toggle .icon-bar {
     display: block;
-    position: relative;
+    position: fixed;
     background: #fff;
     width: 24px;
     height: 2px;
